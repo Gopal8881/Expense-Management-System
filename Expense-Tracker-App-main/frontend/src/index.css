@@ -1,0 +1,16 @@
+/* Purana koi bhi background mita kar naya apply karne ke liye */
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%) !important;
+  background-attachment: fixed !important;
+  min-height: 100vh !important;
+  color: white !important;
+}
+
+/* Dashboard ke content area ko transparent banane ke liye */
+.navbarCSS {
+  background: rgba(255, 255, 255, 0.05) !important;
+  backdrop-filter: blur(10px) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
